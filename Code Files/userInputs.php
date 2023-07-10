@@ -7,14 +7,16 @@
 </head>
 <body>
 
-    <form action="userInputs.php" method="get">
+    <form action="userInputs.php" method="GET">
         <label>Name: </label>
         <input type="text" name="username">
+        <br>
+        <label>Age: </label>
+        <input type="number" name="age">
+        <br>
         <input type="submit">
     </form>
     <br>
-    <?php
-        echo $_GET["username"]," form is submitted successfully.";
-    ?>
+    <?php echo $_GET["username"]," form is submitted successfully.<br>Age of ",$_GET["username"]," is: ",$_GET["age"],"."; ?>
 </body>
 </html>
