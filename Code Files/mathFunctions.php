@@ -7,6 +7,8 @@
 </head>
 <body>
     <?php
+        echo "count(100) = ",count(100),"<br>";
+
         echo "abs(-100) = ",abs(-100),"<br>";
 
         echo "pow(2, 10) = ",pow(2, 10),"<br>";
