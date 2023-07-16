@@ -6,6 +6,7 @@
     <title>Include Keyword in HTML</title>
 </head>
 <body>
+    // File: index.php
     
     <?php include "header.html"; ?>
     <p>This is my HTML text.</p>

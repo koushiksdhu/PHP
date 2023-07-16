@@ -6,6 +6,7 @@
     <title>do-while loop</title>
 </head>
 <body>
+
     <?php
         $i = 1;
         do{
@@ -21,5 +22,6 @@
         This is a do-while loop.
         */
     ?>
+    
 </body>
 </html>

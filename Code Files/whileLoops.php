@@ -10,8 +10,8 @@
         // While loop:
 
         $i = 1;
-        while($i < 5){
-            echo "This is a while loop.<br>";
+        while($i < 5){              // Loop Condition
+            echo "This is a while loop.<br>";   // Loop Body
             $i++;
         }
 
